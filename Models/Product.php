@@ -9,7 +9,7 @@ class Product{
     public $is_available;
     public $image;
 
-    public function __construct($id, $name, $brand, $category, $price, $is_available, $image)
+    public function __construct($_id, $_name, $_brand, $_category, $_price, $_is_available, $_image)
     {
         $this -> id = $_id;
         $this -> name = $_name;
